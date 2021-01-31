@@ -9,6 +9,9 @@ body {
     flex: 1 0 auto;
   }
 
+a{
+    color: black;
+}
 
 .nav-wrapper{
   background: rgb(103,0,86);
@@ -46,7 +49,7 @@ rgba(158,48,131,0.958420868347339) 62%, rgba(208,96,188,0.6979166666666667) 100%
   border: none;
   font-size: 20px;
   border-radius: 10px;
-    color: black;
+    text-color: black;
   padding: 10px;
   margin: 10px;
   background: linear-gradient(90deg, rgba(103,0,86,0.908000700280112) 11%, rgba(143,19,113,0.9724264705882353) 28%,
