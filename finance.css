@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #f3e5f5;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+.nav-wrapper{
+  background: rgb(103,0,86);
+background: linear-gradient(90deg, rgba(103,0,86,0.908000700280112) 11%, rgba(143,19,113,0.9724264705882353) 28%,
+rgba(158,48,131,0.958420868347339) 62%, rgba(208,96,188,0.6979166666666667) 100%);
+}
+
+.brand-logo{
+  margin-left: 30px;
+}
+
+.background-img{
+  height: 1200px;
+  width: 100%;
+  background-image:  url("https://images.pexels.com/photos/39853/woman-girl-freedom-happy-39853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.jpg");
+  background-repeat: no-repeat;
+}
+
+.quote{
+  margin: 50px;
+  font-size: 80px;
+  color: white
+  font-weight:50px;
+}
+
+.story-btn{
+  margin-left: 200px
+}
+
+.share-btn{
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  align-items: center;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background: linear-gradient(90deg, rgba(103,0,86,0.908000700280112) 11%, rgba(143,19,113,0.9724264705882353) 28%,
+  rgba(158,48,131,0.958420868347339) 62%, rgba(208,96,188,0.6979166666666667) 100%);
+}
+
+.carousel-item{
+  border: 10px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.txt{
+  font-family: cursive;
+}
+
+.header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Caveat Brush';
+  padding: 8px;
+  border-radius: 3px;
+  background-color:;
+}
+
+.btn-event{
+  display:flex;
+  justify-content: center;
+}
+
+.page-footer{
+  background: #8b156e;
+}
+
+.finance{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fimage{
+  height: 200px;
+  width: 100px;
+}
